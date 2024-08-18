@@ -1,0 +1,152 @@
+@media screen and (max-width: 568px) {
+  .main-heading {
+    font-size: 30px;
+  }
+  .nav {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  .inner-div {
+    width: 100%;
+    left: 0;
+  }
+  .nav-element {
+    top: -500%;
+    width: 100%;
+  }
+  .details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+  }
+  /*
+page-2
+*/
+  .page-2-inner-container {
+    padding-top: 5rem;
+    width: 90%;
+  }
+  .p-2-icon-div img {
+    width: 50px;
+    align-self: center;
+  }
+  /*
+page-4
+*/
+  .page-4-heading {
+    font-size: 28px;
+  }
+  .show-text {
+    font-size: 15px;
+  }
+  .show-title {
+    font-size: 32px;
+  }
+  .show-des {
+    font-size: 17px;
+  }
+  /*
+skills
+*/
+  .skills-container {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+  }
+  .tool-box {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+  }
+  .box {
+    padding: 4px;
+  }
+
+  .box svg {
+    width: 20px;
+    height: 20px;
+  }
+  .box p {
+    font-size: 10px;
+  }
+  .skill-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 85%;
+  }
+  .custom-shape-divider-bottom-1723875224 svg {
+    position: relative;
+    display: block;
+    width: calc(153% + 1.3px);
+    height: 100px;
+  }
+  .progress-value {
+    width: 95%;
+    height: 95%;
+    font-size: 20px;
+  }
+  /*
+education
+*/
+  .edu-heading {
+    margin-bottom: 0px;
+  }
+  .school-des {
+    gap: 5px;
+  }
+  .education-right .edu-image {
+    width: 90%;
+    height: 40vh;
+  }
+  .education-right .edu-image::after {
+    width: 100%;
+    height: 100%;
+    background-color: var(--red);
+    right: -4%;
+    top: 5%;
+  }
+  /*
+contact
+*/
+  .contact-inner-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contact-left {
+    width: 100%;
+  }
+  .contact-right {
+    width: 100%;
+  }
+  form {
+    gap: 10px;
+  }
+  form label {
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+  .contact-btn {
+    padding: 10px 20px;
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+
+  /*
+  footer
+  */
+  .footer-down{
+   
+    font-size: 6px;
+   text-align: center;
+  }
+  .footer-down span{
+    display: flex;
+    align-items: center;
+    }
+}
