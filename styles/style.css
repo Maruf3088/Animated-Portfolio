@@ -845,17 +845,19 @@ swiper js
 */
 .swiper {
   width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
   font-size: 18px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   background-color: #f3f3f3;
   padding: 30px;
   border-radius: 8px;
   position: relative;
+  height: 300px !important;
 }
 
 .swiper-slide img {
