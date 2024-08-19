@@ -109,7 +109,7 @@ contact
 */
   .contact-inner-container {
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
   }
   .contact-left {
     width: 100%;
