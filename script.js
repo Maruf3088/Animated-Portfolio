@@ -1,5 +1,3 @@
-
-
 function menuberAnim() {
   const menu = document.querySelector(".menu-toggle");
 
@@ -367,10 +365,9 @@ function sendEmail() {
     })
     .catch((err) => console.log(err));
 }
-
+headerAnim();
 menuberAnim();
 navActive();
-headerAnim();
 page2Anim();
 page3Anim();
 page4Anim();

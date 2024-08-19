@@ -95,7 +95,7 @@ education
   }
   .education-right .edu-image {
     width: 90%;
-    height: 40vh;
+    height: 450px;
   }
   .education-right .edu-image::after {
     width: 100%;

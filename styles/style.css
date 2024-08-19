@@ -159,7 +159,7 @@ Nav-bar
 Header Section
 */
 .header {
-  height: 60vh;
+  height: 500px;
   width: 100%;
   position: relative;
 }
@@ -610,7 +610,7 @@ education
 }
 .education-right .edu-image {
   width: 80%;
-  height: 70vh;
+  /* height: 70vh; */
   border-radius: 8px;
   position: relative;
   z-index: 1;
@@ -666,7 +666,7 @@ page-3
 }
 .project-left img {
   width: 90%;
-  height: 60vh;
+  height: 500px;
   object-fit: cover;
   border-radius: 15px;
 }

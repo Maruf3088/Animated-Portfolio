@@ -1,3 +1,26 @@
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1100px;
+  }
+  .page-2-inner-container {
+  
+    max-width: 1100px;
+   
+  }
+  .education-right .edu-image {
+    width: 90%;
+
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+  }
+  .header {
+    height: 400px;
+    width: 100%;
+    position: relative;
+  }
+}
+
 @media screen and (max-width: 1264px) {
   /*
 page-2
@@ -62,7 +85,7 @@ education
 */
   .education-right .edu-image {
     width: 90%;
-    height: 60vh;
+
     border-radius: 8px;
     position: relative;
     z-index: 1;
@@ -286,7 +309,11 @@ education
   .education-right {
     width: 100%;
   }
-
+  .education-right .edu-image {
+    width: 90%;
+    height: 500px;
+    
+  }
   /*
 footer
 */
